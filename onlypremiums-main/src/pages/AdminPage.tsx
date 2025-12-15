@@ -98,6 +98,7 @@ export function AdminPage() {
     name: '',
     color: 'bg-gradient-to-br from-blue-500 to-blue-600',
     textColor: 'text-blue-600',
+    category: 'productivity',
     bgLight: 'bg-blue-50',
     icon: '📦',
   });
@@ -142,6 +143,7 @@ export function AdminPage() {
       textColor: 'text-blue-600',
       bgLight: 'bg-blue-50',
       icon: '📦',
+      category: 'productivity',
     });
     setProductDialogOpen(true);
   };
@@ -183,6 +185,7 @@ export function AdminPage() {
         textColor: colorInfo.textColor,
         bgLight: colorInfo.bgLight,
         icon: productForm.icon || '📦',
+        category: productForm.category || 'productivity',
       };
 
       console.log('Saving product:', productData);

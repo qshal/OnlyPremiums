@@ -8,7 +8,7 @@ import { useProducts } from '@/contexts/ProductContext';
 import { useCart } from '@/contexts/CartContext';
 import { useToast } from '@/components/ui/use-toast';
 import { Plan } from '@/types';
-import { ALL_CATEGORIES, getCategoryInfo } from '@/constants/categories';
+import { getCategoryInfo } from '@/constants/categories';
 import { CategoryPills } from '@/components/CategoryPills';
 
 export function PlansPage() {

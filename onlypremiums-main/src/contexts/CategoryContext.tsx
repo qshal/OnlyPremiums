@@ -1,5 +1,4 @@
 import { createContext, useContext, useState, useCallback, ReactNode, useEffect } from 'react';
-import * as React from 'react';
 // import { supabase } from '@/lib/supabase';
 // import { logger } from '@/lib/logger';
 import { Category } from '@/types';

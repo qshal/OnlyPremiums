@@ -35,7 +35,7 @@ export function Footer() {
               {Object.entries(products).map(([key, product]) => (
                 <li key={key}>
                   <Link to={`/plans?product=${key}`} className="text-gray-600 hover:text-blue-600 transition-colors duration-300 font-medium">
-                    {product.name}
+                    {(product as any).name}
                   </Link>
                 </li>
               ))}

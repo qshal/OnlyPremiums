@@ -60,6 +60,7 @@ export function EnhancedAdminPage() {
     textColor: 'text-blue-600',
     bgLight: 'bg-blue-50',
     icon: '📦',
+    category: 'productivity',
   });
 
   // Plan management state
